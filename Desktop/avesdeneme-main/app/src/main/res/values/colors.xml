@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- start_menu colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+
+	<color name="_bg__start_menu_color">#000000</color>
+	<color name="aves_iha_yard_m_color">#464444</color>
+	<color name="giri__yap_color">#FFFFFF</color>
+	<color name="kay_t_ol_color">#202322</color>
+	<color name="uygulama_nas_l_kullan_l_r_color">#2D2626</color>
+	<color name="_bg__howtouse_menu_ek2_color">#000000</color>
+	<color name="_bg__signup_menu_color">#000000</color>
+	<color name="rectangle_3_color">#3553A1</color>
+	<color name="rectangle_29_color">#F3F3F3</color>
+	<color name="e_posta_color">#666161</color>
+	<color name="devam_et_color">#FFFFFF</color>
+	<color name="kay_t_oldunuz_tesekk_rler_color">#464444</color>
+	<color name="_bg__login_menu_color">#000000</color>
+	<color name="yeniden_hosgeldiniz_color">#464444</color>
+	<color name="_ifremi_unuttum_color">#2C2626</color>
+	<color name="rectangle_28_color">#F3F3F3</color>
+	<color name="sifre_color">#666161</color>
+	<color name="_bg__button_main_color">#000000</color>
+	<color name="_bg__help_menu_color">#000000</color>
+	<color name="g_nder_color">#FFFFFF</color>
+	<color name="ellipse_1_color">#ffffff</color>
+	<color name="ellipse_2_color">#008CB9</color>
+	<color name="yiyecek_color">#454745</color>
+	<color name="_bg__forgot_password_color">#000000</color>
+	<color name="_ifre_g_nder_color">#FFFFFF</color>
+	<color name="hesab_n__aramak_i_in_l_tfen_e_posta_adresini_veya_telefon_numaran__gir_color">#2D2626</color>
+	<color name="rectangle_27_color">#F3F3F3</color>
+	<color name="e_posta_telefon_color">#666161</color>
+	<color name="tamam_color">#FFFFFF</color>
+	<color name="rectangle_32_color">#F3F3F3</color>
+	<color name="adres_1_color">#666161</color>
+	<color name="_bg__last_screen_color">#000000</color>
+	<color name="yard_m__stedi_iniz_ba_ar_yla_g_nderildi_color">#464444</color>
+
+</resources>

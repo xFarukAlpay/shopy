@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651051041011",
+    "project_id": "avesiha-fadd3",
+    "storage_bucket": "avesiha-fadd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651051041011:android:dfce901fa9961b3e917786",
+        "android_client_info": {
+          "package_name": "com.example.exportaves"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Nk_DdqQtoEEwNsbKb4OgO9kkGx60phc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- start_menu strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="aves_iha_yard_m_string">Aves Iha Yardm</string>
+	<string name="acil_durumlarda_ihtiyac_n_z_olanlar__size_ula_t_r_yoruz__string">Acil durumlarda ihtiyacnz olanlar size ulatryoruz.</string>
+	<string name="giri__yap_string">Giri Yap</string>
+	<string name="kay_t_ol_string">Kayt Ol</string>
+	<string name="uygulama_nas_l_kullan_l_r_string"><u>Uygulama Nasl Kullanlr</u></string>
+	<string name="acil_durumda_d__meye_bas_string">Acil Durumda Dmeye Bas</string>
+	<string name="_htiya_lar_n__ve_di_er_bilgileri_gir_g_nder_string">htiyalarn ve Dier Bilgileri Gir Gnder</string>
+	<string name="insansiz_hava_arac_m_z_en_yakin_zamanda_belirlemi__oldugunuz_adrese_ihtiya_lar_n_z__ula_t_r__string">nsansz Hava Aracmz en yakn zamanda belirlemi olduunuz adrese ihtiyalarnz ulatracaktr.</string>
+	<string name="ana_sayfaya_d_n_string">Ana Sayfaya Dn</string>
+	<string name="e_posta_string">E-Posta</string>
+	<string name="ad_soyad_string">Ad/Soyad</string>
+	<string name="telefon_string">Telefon</string>
+	<string name="_l__l_e_string">l/le</string>
+	<string name="adres_1_string">Adres 1</string>
+	<string name="adres_2_string">Adres 2</string>
+	<string name="sifre_string">Sifre</string>
+	<string name="devam_et_string">Devam Et</string>
+	<string name="kay_t_oldunuz_tesekk_rler_string">Kayt Oldunuz Tesekkrler</string>
+	<string name="yeniden_hosgeldiniz_string"> Yeniden Hosgeldiniz</string>
+	<string name="_ifremi_unuttum_string">ifremi Unuttum</string>
+	<string name="telefon_email_string">Telefon/Email</string>
+	<string name="yardim__ste_string">YARDIM STE</string>
+	<string name="belediye_hizmet_binas__k_tahya_merkez_string">Belediye Hizmet Binas Ktahya/Merkez</string>
+	<string name="adres__string">Adres:</string>
+	<string name="g_nder_string">GNDER</string>
+	<string name="yiyecek_string">Yiyecek</string>
+	<string name="_ad_r_string">adr</string>
+	<string name="k_yafet_string">Kyafet</string>
+	<string name="battaniye_string">Battaniye</string>
+	<string name="_lk_yard_m_kiti_string">lk Yardm Kiti</string>
+	<string name="hijyen_malzemesi_string">Hijyen Malzemesi</string>
+	<string name="_6__r_n_se_ildi_string">6 rn seildi</string>
+	<string name="_ifre_g_nder_string">ifre Gnder</string>
+	<string name="hesab_n__aramak_i_in_l_tfen_e_posta_adresini_veya_telefon_numaran__gir_string">Hesabn aramak iin ltfene-posta adresini veya telefon numaran gir</string>
+	<string name="e_posta_telefon_string">E-posta/Telefon</string>
+	<string name="tamam_string">Tamam</string>
+	<string name="posta_sms_kutundan_yeni__ifreni_alabilirsin_string">Posta/Sms kutundan yeni ifreni alabilirsin</string>
+	<string name="yard_m__stedi_iniz_ba_ar_yla_g_nderildi_string">Yardm stediiniz Baaryla Gnderildi</string>
+	<string name="adres_bilgilerimi_g_ncelle_string">
+<u>Adres Bilgilerimi Gncelle</u>
+</string>
+    <string name="_nsans_z_hava_arac_m_z_en_yak_n_zamanda_belirlemi__oldu_unuz_adrese_ihtiya_lar_n_z__ula_t_racakt_r__string">Insansız hava aracı\n</string>
+	<string name="ınsansız_hava_aracı" />
+</resources>

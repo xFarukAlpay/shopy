@@ -1,0 +1,100 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		button_main
+	 *	@date 		Tuesday 19th of December 2023 05:26:08 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/button_main" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View
+				android:id="@+id/_bg__button_main"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__button_main_shape" />
+
+
+			<RelativeLayout android:id="@+id/circle"
+				android:layout_marginTop="274dp"
+				android:layout_marginStart="72dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+			</RelativeLayout>
+
+			<TextView
+				android:id="@+id/adres_bilgilerimi_g_ncelle"
+				android:layout_width="199dp"
+				android:layout_height="27.5dp"
+				android:layout_below="@+id/yardim__ste"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentEnd="true"
+				android:layout_alignParentBottom="true"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginStart="105dp"
+				android:layout_marginLeft="100dp"
+				android:layout_marginTop="52dp"
+				android:layout_marginEnd="81dp"
+				android:layout_marginBottom="128dp"
+				android:gravity="center"
+				android:shadowColor="#000000"
+				android:shadowDx="0"
+				android:shadowDy="4"
+				android:shadowRadius="4"
+				android:text="@string/adres_bilgilerimi_g_ncelle_string"
+				android:textColor="@color/_bg__button_main_color"
+				android:textSize="15sp" />
+
+			<View
+				android:id="@+id/_bg__circle_ek1"
+				android:layout_width="255dp"
+				android:layout_height="255dp"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="100dp"
+				android:background="@drawable/_bg__circle_ek1_shape" />
+
+			<ImageView
+				android:id="@+id/icon_08"
+				android:layout_width="95.16dp"
+				android:layout_height="107.17dp"
+				android:layout_marginStart="159.46dp"
+				android:layout_marginTop="153.91dp"
+				android:contentDescription="icon_08"
+				android:src="@drawable/icon_08" />
+
+
+			<TextView
+				android:id="@+id/yardim__ste"
+				android:layout_width="211dp"
+				android:layout_height="54dp"
+				android:layout_marginLeft="106dp"
+				android:layout_marginTop="542dp"
+				android:text="@string/yardim__ste_string"
+				android:textColor="@color/_bg__button_main_color"
+				android:textSize="30sp"
+				android:textStyle="bold" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

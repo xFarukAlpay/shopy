@@ -1,0 +1,155 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		start_menu
+	 *	@date 		Tuesday 19th of December 2023 05:21:35 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/start_menu" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View
+				android:id="@+id/_bg__start_menu"
+				android:layout_width="385dp"
+				android:layout_height="802dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__start_menu_shape" />
+
+			<TextView android:id="@+id/aves_iha_yard_m"
+				android:textStyle="bold"
+				android:textSize="33sp"
+				android:textColor="@color/aves_iha_yard_m_color"
+				android:layout_marginLeft="52dp"
+				android:layout_marginTop="400dp"
+				android:layout_width="338.3dp"
+				android:layout_height="64.3dp"
+				android:text="@string/aves_iha_yard_m_string"
+				 />
+
+			<TextView android:id="@+id/acil_durumlarda_ihtiyac_n_z_olanlar__size_ula_t_r_yoruz_"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/_bg__start_menu_color"
+				android:layout_marginLeft="101dp"
+				android:layout_marginTop="489dp"
+				android:layout_width="205dp"
+				android:layout_height="99dp"
+				android:text="@string/acil_durumlarda_ihtiyac_n_z_olanlar__size_ula_t_r_yoruz__string"
+				 />
+
+			<ImageView android:id="@+id/istockphoto_1009279168_170667a_1"
+				android:src="@drawable/istockphoto_1009279168_170667a_1"
+				android:contentDescription="istockphoto_1009279168_170667a_1"
+				 android:layout_marginStart="78dp"
+				android:layout_marginTop="128dp"
+				android:layout_width="237dp"
+				android:layout_height="237dp" />
+
+
+			<RelativeLayout android:id="@+id/loginmainbutton"
+				android:layout_marginTop="643dp"
+				android:layout_marginStart="32dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__loginmainbutton_ek1"
+					android:background="@drawable/_bg__loginmainbutton_ek1_shape"
+					 android:layout_marginStart="-32dp"
+					android:layout_marginTop="-643dp"
+					android:layout_width="160dp"
+					android:layout_height="60dp" />
+
+				<ImageView android:id="@+id/rectangle_3"
+					android:src="@drawable/rectangle_3"
+					android:contentDescription="rectangle_3"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="160dp"
+					android:layout_height="60dp" />
+
+				<TextView android:id="@+id/giri__yap"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/giri__yap_color"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="109dp"
+					android:layout_height="28dp"
+					android:text="@string/giri__yap_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/signupmainbutton"
+				android:layout_marginTop="643dp"
+				android:layout_marginStart="190dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__signupmainbutton_ek1"
+					android:background="@drawable/_bg__signupmainbutton_ek1_shape"
+					 android:layout_marginStart="-190dp"
+					android:layout_marginTop="-643dp"
+					android:layout_width="160dp"
+					android:layout_height="60dp" />
+
+				<View   android:id="@+id/rectangle_4"
+					android:background="@drawable/rectangle_4_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="160dp"
+					android:layout_height="60dp" />
+
+				<TextView android:id="@+id/kay_t_ol"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textColor="@color/kay_t_ol_color"
+					android:layout_marginLeft="34dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="88dp"
+					android:layout_height="36dp"
+					android:text="@string/kay_t_ol_string"
+					 />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/uygulama_nas_l_kullan_l_r"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="15sp"
+				android:textColor="@color/uygulama_nas_l_kullan_l_r_color"
+				android:layout_marginLeft="24dp"
+				android:layout_marginTop="732dp"
+				android:layout_width="333dp"
+				android:layout_height="27.5dp"
+				android:text="@string/uygulama_nas_l_kullan_l_r_string"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
