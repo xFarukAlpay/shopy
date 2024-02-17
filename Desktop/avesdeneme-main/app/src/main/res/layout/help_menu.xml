@@ -29,7 +29,7 @@
 
 			<View
 				android:id="@+id/_bg__help_menu"
-				android:layout_width="385dp"
+				android:layout_width="394dp"
 				android:layout_height="802dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
@@ -49,10 +49,10 @@
 
 			<TextView
 				android:id="@+id/adres_"
-				android:layout_width="133dp"
-				android:layout_height="26.5dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:layout_gravity="center_horizontal|center"
-				android:layout_marginLeft="-9dp"
+				android:layout_marginLeft="48dp"
 				android:layout_marginTop="84dp"
 				android:gravity="center"
 				android:text="@string/adres__string"
@@ -98,9 +98,18 @@
 			</RelativeLayout>
 
 			<ImageView
+				android:id="@+id/konum_1"
+				android:layout_width="15dp"
+				android:layout_height="15dp"
+				android:layout_marginStart="23dp"
+				android:layout_marginTop="120dp"
+				android:contentDescription="konum_1"
+				android:src="@drawable/map" />
+
+			<ImageView
 				android:id="@+id/polygon_1"
-				android:layout_width="14.72dp"
-				android:layout_height="7.5dp"
+				android:layout_width="15dp"
+				android:layout_height="15dp"
 				android:layout_marginStart="333dp"
 				android:layout_marginTop="120dp"
 				android:contentDescription="polygon_1"
@@ -134,8 +143,8 @@
 					android:id="@+id/ellipse_2"
 					android:layout_width="12dp"
 					android:layout_height="12dp"
-					android:layout_marginStart="14dp"
-					android:layout_marginTop="15dp"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="14dp"
 					android:background="@drawable/ellipse_2_shape" />
 
 				<TextView
@@ -147,7 +156,7 @@
 					android:layout_marginTop="108dp"
 					android:gravity="center"
 					android:text="@string/yiyecek_string"
-					android:textColor="@color/yiyecek_color"
+					android:textColor="#434343"
 					android:textSize="15sp"
 					android:textStyle="bold" />
 
@@ -190,20 +199,20 @@
 					android:id="@+id/ellipse_2_ek1"
 					android:layout_width="12dp"
 					android:layout_height="12dp"
-					android:layout_marginStart="14dp"
-					android:layout_marginTop="15dp"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="14dp"
 					android:background="@drawable/ellipse_2_ek1_shape" />
 
 				<TextView
 					android:id="@+id/_ad_r"
-					android:layout_width="80dp"
-					android:layout_height="20.5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="8dp"
+					android:layout_marginLeft="18dp"
 					android:layout_marginTop="108dp"
 					android:gravity="center"
 					android:text="@string/_ad_r_string"
-					android:textColor="@color/yiyecek_color"
+					android:textColor="#434343"
 					android:textSize="15sp"
 					android:textStyle="bold" />
 
@@ -246,8 +255,8 @@
 					android:id="@+id/ellipse_2_ek2"
 					android:layout_width="12dp"
 					android:layout_height="12dp"
-					android:layout_marginStart="14dp"
-					android:layout_marginTop="15dp"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="14dp"
 					android:background="@drawable/ellipse_2_ek2_shape" />
 
 				<TextView
@@ -259,7 +268,7 @@
 					android:layout_marginTop="108dp"
 					android:gravity="center"
 					android:text="@string/k_yafet_string"
-					android:textColor="@color/yiyecek_color"
+					android:textColor="#434343"
 					android:textSize="15sp"
 					android:textStyle="bold" />
 
@@ -302,8 +311,8 @@
 					android:id="@+id/ellipse_2_ek3"
 					android:layout_width="12dp"
 					android:layout_height="12dp"
-					android:layout_marginStart="14dp"
-					android:layout_marginTop="15dp"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="14dp"
 					android:background="@drawable/ellipse_2_ek3_shape" />
 
 				<TextView
@@ -315,7 +324,7 @@
 					android:layout_marginTop="108dp"
 					android:gravity="center"
 					android:text="@string/battaniye_string"
-					android:textColor="@color/yiyecek_color"
+					android:textColor="#434343"
 					android:textSize="15sp"
 					android:textStyle="bold" />
 
@@ -358,8 +367,8 @@
 					android:id="@+id/ellipse_2_ek4"
 					android:layout_width="12dp"
 					android:layout_height="12dp"
-					android:layout_marginStart="14dp"
-					android:layout_marginTop="15dp"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="14dp"
 					android:background="@drawable/ellipse_2_ek4_shape" />
 
 				<TextView
@@ -367,11 +376,11 @@
 					android:layout_width="114dp"
 					android:layout_height="21.5dp"
 					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="8dp"
+					android:layout_marginLeft="10dp"
 					android:layout_marginTop="108dp"
 					android:gravity="center"
 					android:text="@string/_lk_yard_m_kiti_string"
-					android:textColor="@color/yiyecek_color"
+					android:textColor="#434343"
 					android:textSize="15sp"
 					android:textStyle="bold" />
 
@@ -414,8 +423,8 @@
 					android:id="@+id/ellipse_2_ek5"
 					android:layout_width="12dp"
 					android:layout_height="12dp"
-					android:layout_marginStart="14dp"
-					android:layout_marginTop="15dp"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="14dp"
 					android:background="@drawable/ellipse_2_ek5_shape" />
 
 				<TextView
@@ -427,7 +436,7 @@
 					android:layout_marginTop="108dp"
 					android:gravity="center"
 					android:text="@string/hijyen_malzemesi_string"
-					android:textColor="@color/yiyecek_color"
+					android:textColor="#434343"
 					android:textSize="15sp"
 					android:textStyle="bold" />
 

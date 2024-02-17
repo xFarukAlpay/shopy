@@ -15,19 +15,19 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/signup_menu" 
-		android:layout_width="wrap_content" 
+	<ScrollView android:id="@+id/signup_menu"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
 			<View   android:id="@+id/_bg__signup_menu"
 				android:background="@drawable/_bg__signup_menu_shape"
 				 android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
-				android:layout_width="385dp"
+				android:layout_width="394dp"
 				android:layout_height="802dp" />
 
 
@@ -54,7 +54,8 @@
 					android:layout_height="60dp"
 					android:text="KAYIT OL"
 					android:textSize="23sp"
-					android:textColor="@color/kay_t_ol_color"
+					android:textColor="#FFFFFF"
+					android:fontFamily="@font/poppins_medium"
 					android:onClick="ekleButtonClicked"
 					/>
 
@@ -109,10 +110,11 @@
 
 			<EditText
 				android:id="@+id/e_posta_input"
-				android:layout_width="148dp"
+				android:layout_width="200dp"
 				android:layout_height="wrap_content"
 				android:layout_marginLeft="88dp"
-				android:layout_marginTop="200dp"
+				android:layout_marginTop="188dp"
+				android:fontFamily="@font/poppins_medium"
 				android:hint="@string/e_posta_string"
 				android:textColor="@color/e_posta_color"
 				android:textSize="20sp" />
@@ -121,20 +123,22 @@
 				android:id="@+id/ad_soyad_input"
 				android:textSize="20sp"
 				android:textColor="@color/e_posta_color"
+				android:fontFamily="@font/poppins_medium"
 				android:layout_marginLeft="87dp"
-				android:layout_marginTop="115dp"
+				android:layout_marginTop="110dp"
 				android:hint="@string/ad_soyad_string"
-				android:layout_width="150dp"
-				android:layout_height="44dp"
+				android:layout_width="200dp"
+				android:layout_height="50dp"
 				 />
 
 			<EditText android:id="@+id/telefon"
 				android:textSize="20sp"
 				android:textColor="@color/e_posta_color"
+				android:fontFamily="@font/poppins_medium"
 				android:layout_marginLeft="87dp"
-				android:layout_marginTop="279dp"
-				android:layout_width="149dp"
-				android:layout_height="45dp"
+				android:layout_marginTop="274dp"
+				android:layout_width="200dp"
+				android:layout_height="50dp"
 				android:hint="@string/telefon_string"
 				 />
 
@@ -142,22 +146,25 @@
 				android:id="@+id/sehir_input"
 				android:textSize="20sp"
 				android:textColor="@color/e_posta_color"
+				android:fontFamily="@font/poppins_medium"
 				android:layout_marginLeft="88dp"
-				android:layout_marginTop="362dp"
+				android:layout_marginTop="356dp"
 				android:hint="@string/_l__l_e_string"
-				android:layout_width="149dp"
-				android:layout_height="44dp" />
+				android:layout_width="200dp"
+				android:layout_height="50dp" />
 
 
 			<EditText
 				android:id="@+id/adres_1_input"
 				android:textSize="20sp"
 				android:textColor="@color/e_posta_color"
+				android:fontFamily="@font/poppins_medium"
+
 				android:layout_marginLeft="84dp"
-				android:layout_marginTop="447dp"
+				android:layout_marginTop="437dp"
 				android:hint="@string/adres_1_string"
-				android:layout_width="149dp"
-				android:layout_height="44dp" />
+				android:layout_width="200dp"
+				android:layout_height="50dp" />
 
 
 			<ImageView android:id="@+id/vector_ek1"
@@ -184,13 +191,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__home_ek1"
-					android:background="@drawable/_bg__home_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="34dp"
-					android:layout_height="34dp" />
-
 				<ImageView android:id="@+id/vector_ek3"
 					android:src="@drawable/vector_ek3"
 					android:contentDescription="vector_ek3"
@@ -202,29 +202,7 @@
 			</RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/home_ek2"
-				android:layout_marginTop="442dp"
-				android:layout_marginStart="36dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
 
-				<View   android:id="@+id/_bg__home_ek3"
-					android:background="@drawable/_bg__home_ek3_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="34dp"
-					android:layout_height="34dp" />
-
-				<ImageView android:id="@+id/vector_ek4"
-					android:src="@drawable/vector_ek4"
-					android:contentDescription="vector_ek4"
-					 android:layout_marginStart="2.83dp"
-					android:layout_marginTop="4.25dp"
-					android:layout_width="28.33dp"
-					android:layout_height="25.5dp" />
-
-			</RelativeLayout>
 
 			<ImageView android:id="@+id/map"
 				android:src="@drawable/map"
@@ -261,11 +239,12 @@
 				android:id="@+id/adres_2_input"
 				android:textSize="20sp"
 				android:textColor="@color/e_posta_color"
+				android:fontFamily="@font/poppins_medium"
 				android:layout_marginLeft="84dp"
-				android:layout_marginTop="529dp"
+				android:layout_marginTop="520dp"
 				android:hint="@string/adres_2_string"
-				android:layout_width="149dp"
-				android:layout_height="44dp" />
+				android:layout_width="200dp"
+				android:layout_height="50dp" />
 
 
 
@@ -275,13 +254,6 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				>
-
-				<View   android:id="@+id/_bg__home_ek5"
-					android:background="@drawable/_bg__home_ek5_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="34dp"
-					android:layout_height="34dp" />
 
 				<ImageView android:id="@+id/vector_ek5"
 					android:src="@drawable/vector_ek5"
@@ -294,29 +266,6 @@
 			</RelativeLayout>
 
 
-			<RelativeLayout android:id="@+id/home_ek6"
-				android:layout_marginTop="524dp"
-				android:layout_marginStart="36dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				>
-
-				<View   android:id="@+id/_bg__home_ek7"
-					android:background="@drawable/_bg__home_ek7_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="34dp"
-					android:layout_height="34dp" />
-
-				<ImageView android:id="@+id/vector_ek6"
-					android:src="@drawable/vector_ek6"
-					android:contentDescription="vector_ek6"
-					 android:layout_marginStart="2.83dp"
-					android:layout_marginTop="4.25dp"
-					android:layout_width="28.33dp"
-					android:layout_height="25.5dp" />
-
-			</RelativeLayout>
 
 			<ImageView android:id="@+id/polygon_3"
 				android:src="@drawable/polygon_3"
@@ -344,11 +293,12 @@
 				android:id="@+id/sifre_input"
 				android:textSize="20sp"
 				android:textColor="@color/e_posta_color"
+				android:fontFamily="@font/poppins_medium"
 				android:layout_marginLeft="83dp"
-				android:layout_marginTop="607dp"
+				android:layout_marginTop="600dp"
 				android:hint="@string/sifre_string"
-				android:layout_width="152dp"
-				android:layout_height="44dp" />
+				android:layout_width="200dp"
+				android:layout_height="50dp" />
 
 
 			<RelativeLayout android:id="@+id/group"
@@ -358,12 +308,6 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__group_ek1"
-					android:background="@drawable/_bg__group_ek1_shape"
-					 android:layout_marginStart="-312dp"
-					android:layout_marginTop="-612dp"
-					android:layout_width="25.64dp"
-					android:layout_height="18.22dp" />
 
 				<ImageView android:id="@+id/vector_ek8"
 					android:src="@drawable/vector_ek8"

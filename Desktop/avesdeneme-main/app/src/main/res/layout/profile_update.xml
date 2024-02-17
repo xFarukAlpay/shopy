@@ -15,22 +15,21 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/profile_update" 
-		android:layout_width="wrap_content" 
+	<ScrollView android:id="@+id/profile_update"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
-
-
 			<View
 				android:id="@+id/_bg__profile_update"
-				android:layout_width="385dp"
+				android:layout_width="394dp"
 				android:layout_height="802dp"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:background="@drawable/_bg__profile_update_shape" />
+
 
 			<RelativeLayout android:id="@+id/okeybutton"
 				android:layout_marginTop="695dp"
@@ -39,48 +38,44 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__okeybutton_ek1"
-					android:background="@drawable/_bg__okeybutton_ek1_shape"
-					 android:layout_marginStart="-32dp"
-					android:layout_marginTop="-695dp"
-					android:layout_width="320.6dp"
-					android:layout_height="60dp" />
-
 				<View   android:id="@+id/rectangle_3"
 					android:background="@drawable/rectangle_3_shape"
-					 android:layout_marginStart="0dp"
+					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:layout_width="320.6dp"
 					android:layout_height="60dp" />
 
-				<TextView android:id="@+id/tamam"
-					android:textSize="23sp"
-					android:textColor="@color/tamam_color"
-					android:layout_marginLeft="109dp"
-					android:layout_marginTop="11dp"
+				<TextView
+					android:id="@+id/tamam"
 					android:layout_width="111.3dp"
 					android:layout_height="42.3dp"
+					android:layout_marginLeft="109dp"
+					android:layout_marginTop="11dp"
+					android:fontFamily="@font/poppins_medium"
 					android:text="@string/tamam_string"
-					 />
+					android:textColor="@color/tamam_color"
+					android:textSize="23sp" />
 
 			</RelativeLayout>
 
-			<View   android:id="@+id/rectangle_32"
+			<View
+				android:id="@+id/rectangle_32"
 				android:background="@drawable/rectangle_32_shape"
-				 android:layout_marginStart="21dp"
+				android:layout_marginStart="25dp"
 				android:layout_marginTop="103dp"
 				android:layout_width="340dp"
 				android:layout_height="60dp" />
 
-			<TextView android:id="@+id/adres_1"
-				android:textSize="20sp"
-				android:textColor="@color/adres_1_color"
-				android:layout_marginLeft="83dp"
-				android:layout_marginTop="122dp"
+			<TextView
+				android:id="@+id/adres_1"
 				android:layout_width="149dp"
 				android:layout_height="44dp"
+				android:layout_marginLeft="90dp"
+				android:layout_marginTop="122dp"
+				android:fontFamily="@font/poppins_medium"
 				android:text="@string/adres_1_string"
-				 />
+				android:textColor="@color/adres_1_color"
+				android:textSize="20sp" />
 
 
 			<RelativeLayout android:id="@+id/home"
@@ -90,17 +85,11 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__home_ek1"
-					android:background="@drawable/_bg__home_ek1_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="34dp"
-					android:layout_height="34dp" />
 
 				<ImageView android:id="@+id/vector"
 					android:src="@drawable/vector"
 					android:contentDescription="vector"
-					 android:layout_marginStart="2.83dp"
+					android:layout_marginStart="2.83dp"
 					android:layout_marginTop="4.25dp"
 					android:layout_width="28.33dp"
 					android:layout_height="25.5dp" />
@@ -110,27 +99,28 @@
 			<ImageView android:id="@+id/polygon_2"
 				android:src="@drawable/polygon_2"
 				android:contentDescription="polygon_2"
-				 android:layout_marginStart="315dp"
+				android:layout_marginStart="320dp"
 				android:layout_marginTop="131dp"
 				android:layout_width="20dp"
 				android:layout_height="10.19dp" />
 
 			<View   android:id="@+id/rectangle_33"
 				android:background="@drawable/rectangle_33_shape"
-				 android:layout_marginStart="21dp"
+				android:layout_marginStart="25dp"
 				android:layout_marginTop="185dp"
 				android:layout_width="340dp"
 				android:layout_height="60dp" />
 
-			<TextView android:id="@+id/adres_2"
-				android:textSize="20sp"
-				android:textColor="@color/adres_1_color"
-				android:layout_marginLeft="83dp"
-				android:layout_marginTop="204dp"
+			<TextView
+				android:id="@+id/adres_2"
 				android:layout_width="149dp"
 				android:layout_height="44dp"
+				android:layout_marginLeft="90dp"
+				android:layout_marginTop="204dp"
+				android:fontFamily="@font/poppins_medium"
 				android:text="@string/adres_2_string"
-				 />
+				android:textColor="@color/adres_1_color"
+				android:textSize="20sp" />
 
 
 			<RelativeLayout android:id="@+id/home_ek2"
@@ -140,17 +130,11 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__home_ek3"
-					android:background="@drawable/_bg__home_ek3_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="34dp"
-					android:layout_height="34dp" />
 
 				<ImageView android:id="@+id/vector_ek1"
 					android:src="@drawable/vector_ek1"
 					android:contentDescription="vector_ek1"
-					 android:layout_marginStart="2.83dp"
+					android:layout_marginStart="2.83dp"
 					android:layout_marginTop="4.25dp"
 					android:layout_width="28.33dp"
 					android:layout_height="25.5dp" />
@@ -160,7 +144,7 @@
 			<ImageView android:id="@+id/polygon_3"
 				android:src="@drawable/polygon_3"
 				android:contentDescription="polygon_3"
-				 android:layout_marginStart="315dp"
+				android:layout_marginStart="320dp"
 				android:layout_marginTop="213dp"
 				android:layout_width="20dp"
 				android:layout_height="10.19dp" />

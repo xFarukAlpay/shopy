@@ -15,8 +15,8 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/howtouse_menu" 
-		android:layout_width="wrap_content" 
+	<ScrollView android:id="@+id/howtouse_menu"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
 		<RelativeLayout android:id="@+id/content_container"
@@ -34,22 +34,23 @@
 
 				<View
 					android:id="@+id/_bg__howtouse_menu_ek2"
-					android:layout_width="427dp"
+					android:layout_width="394dp"
 					android:layout_height="802dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="0dp"
 					android:background="@drawable/_bg__howtouse_menu_ek2_shape" />
 
-				<TextView android:id="@+id/aves_iha_yard_m"
-					android:textStyle="bold"
-					android:textSize="20sp"
-					android:textColor="@color/aves_iha_yard_m_color"
-					android:layout_marginLeft="171dp"
-					android:layout_marginTop="129dp"
+				<TextView
+					android:id="@+id/aves_iha_yard_m"
 					android:layout_width="330dp"
 					android:layout_height="60dp"
+					android:layout_marginLeft="171dp"
+					android:layout_marginTop="129dp"
+					android:fontFamily="@font/poppins_bold"
 					android:text="@string/aves_iha_yard_m_string"
-					 />
+					android:textColor="@color/aves_iha_yard_m_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
 
 				<ImageView
 					android:id="@+id/istockphoto_1009279168_170667a_1"
@@ -62,11 +63,12 @@
 
 				<TextView
 					android:id="@+id/kay_t_ol"
-					android:layout_width="73dp"
-					android:layout_height="30.7dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="84dp"
 					android:layout_marginTop="277dp"
+					android:fontFamily="@font/poppins_medium"
 					android:gravity="center"
 					android:text="@string/kay_t_ol_string"
 					android:textColor="@color/_bg__howtouse_menu_ek2_color"
@@ -74,37 +76,40 @@
 
 				<TextView
 					android:id="@+id/acil_durumda_d__meye_bas"
-					android:layout_width="248dp"
-					android:layout_height="30.7dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="84dp"
 					android:layout_marginTop="374dp"
+					android:fontFamily="@font/poppins_medium"
 					android:gravity="center"
 					android:text="@string/acil_durumda_d__meye_bas_string"
 					android:textColor="@color/_bg__howtouse_menu_ek2_color"
 					android:textSize="17sp" />
 
-				<TextView android:id="@+id/_htiya_lar_n__ve_di_er_bilgileri_gir_g_nder"
-					android:textSize="17sp"
-					android:textColor="@color/_bg__howtouse_menu_ek2_color"
-					android:layout_marginLeft="87dp"
-					android:layout_marginTop="480dp"
+				<TextView
+					android:id="@+id/_htiya_lar_n__ve_di_er_bilgileri_gir_g_nder"
 					android:layout_width="294.7dp"
 					android:layout_height="56.7dp"
+					android:layout_marginLeft="87dp"
+					android:layout_marginTop="480dp"
+					android:fontFamily="@font/poppins_medium"
 					android:text="@string/_htiya_lar_n__ve_di_er_bilgileri_gir_g_nder_string"
-					 />
+					android:textColor="@color/_bg__howtouse_menu_ek2_color"
+					android:textSize="17sp" />
 
 
 				<TextView
 					android:id="@+id/_nsans_z_hava_arac_m_z_en_yak_n_zamanda_belirlemi__oldu_unuz_adrese_ihtiya_lar_n_z__ula_t_racakt_r_"
-					android:layout_width="420dp"
+					android:layout_width="350dp"
 					android:layout_height="69.5dp"
-					android:layout_gravity="center_horizontal|center"
-					android:layout_marginLeft="-18dp"
-					android:layout_marginTop="595dp"
+					android:layout_gravity="center_horizontal"
 					android:gravity="center"
-					android:text="@string/ınsansız_hava_aracı"
-					android:textColor="@color/_bg__howtouse_menu_ek2_color"
+					android:layout_marginLeft="18dp"
+					android:layout_marginTop="595dp"
+					android:fontFamily="@font/poppins_medium"
+					android:text="@string/insansiz_hava_arac_m_z_en_yakin_zamanda_belirlemi__oldugunuz_adrese_ihtiya_lar_n_z__ula_t_r__string"
+					android:textColor="#000000"
 					android:textSize="15sp" />
 
 				<RelativeLayout android:id="@+id/_1"
@@ -119,8 +124,7 @@
 						android:layout_width="50dp"
 						android:layout_height="50dp"
 						android:layout_marginStart="0dp"
-						android:layout_marginTop="50dp"
-						android:contentDescription="clip_path_group"
+						android:layout_marginTop="0dp"
 						android:src="@drawable/clip_path_group" />
 
 				</RelativeLayout>
@@ -133,18 +137,12 @@
 					android:layout_height="wrap_content"
 					>
 
-					<View   android:id="@+id/_bg___3_ek1"
-						android:background="@drawable/_bg___3_ek1_shape"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="47.5dp"
-						android:layout_height="47.5dp" />
 
 					<ImageView android:id="@+id/clip_path_group_ek1"
 						android:src="@drawable/clip_path_group_ek1"
 						android:contentDescription="clip_path_group_ek1"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="47.5dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
 						android:layout_width="47.5dp"
 						android:layout_height="47.5dp" />
 
@@ -161,18 +159,11 @@
 					<ImageView android:id="@+id/clip_path_group_ek2"
 						android:src="@drawable/clip_path_group_ek2"
 						android:contentDescription="clip_path_group_ek2"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="47.5dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
 						android:layout_width="47.5dp"
 						android:layout_height="47.5dp" />
 
-					<View
-						android:id="@+id/_bg___2_ek1"
-						android:layout_width="47.5dp"
-						android:layout_height="47.5dp"
-						android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:background="@drawable/_bg___2_ek1_shape" />
 
 				</RelativeLayout>
 
@@ -190,7 +181,7 @@
 					android:layout_width="138dp"
 					android:layout_height="27.5dp"
 					android:text="@string/ana_sayfaya_d_n_string"
-					 />
+					/>
 
 			</RelativeLayout>
 		</RelativeLayout>

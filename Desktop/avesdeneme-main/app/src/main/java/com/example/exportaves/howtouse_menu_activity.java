@@ -56,11 +56,11 @@ public class howtouse_menu_activity extends Activity {
 		acil_durumda_d__meye_bas = (TextView) findViewById(R.id.acil_durumda_d__meye_bas);
 		_htiya_lar_n__ve_di_er_bilgileri_gir_g_nder = (TextView) findViewById(R.id._htiya_lar_n__ve_di_er_bilgileri_gir_g_nder);
 		_nsans_z_hava_arac_m_z_en_yak_n_zamanda_belirlemi__oldu_unuz_adrese_ihtiya_lar_n_z__ula_t_racakt_r_ = (TextView) findViewById(R.id._nsans_z_hava_arac_m_z_en_yak_n_zamanda_belirlemi__oldu_unuz_adrese_ihtiya_lar_n_z__ula_t_racakt_r_);
-		_bg___1_ek1 = (View) findViewById(R.id._bg___2_ek1);
+
 		clip_path_group = (ImageView) findViewById(R.id.clip_path_group);
-		_bg___3_ek1 = (View) findViewById(R.id._bg___3_ek1);
+
 		clip_path_group_ek1 = (ImageView) findViewById(R.id.clip_path_group_ek1);
-		_bg___2_ek1 = (View) findViewById(R.id._bg___2_ek1);
+
 		clip_path_group_ek2 = (ImageView) findViewById(R.id.clip_path_group_ek2);
 		ana_sayfaya_d_n = (TextView) findViewById(R.id.ana_sayfaya_d_n);
 	

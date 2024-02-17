@@ -37,17 +37,17 @@ public class profile_update_activity extends Activity {
 
 
 		View _bg__profile_update = (View) findViewById(R.id._bg__profile_update);
-		View _bg__okeybutton_ek1 = (View) findViewById(R.id._bg__okeybutton_ek1);
+
 		View rectangle_3 = (View) findViewById(R.id.rectangle_3);
 		TextView tamam = (TextView) findViewById(R.id.tamam);
 		View rectangle_32 = (View) findViewById(R.id.rectangle_32);
 		TextView adres_1 = (TextView) findViewById(R.id.adres_1);
-		View _bg__home_ek1 = (View) findViewById(R.id._bg__home_ek1);
+
 		ImageView vector = (ImageView) findViewById(R.id.vector);
 		ImageView polygon_2 = (ImageView) findViewById(R.id.polygon_2);
 		View rectangle_33 = (View) findViewById(R.id.rectangle_33);
 		TextView adres_2 = (TextView) findViewById(R.id.adres_2);
-		View _bg__home_ek3 = (View) findViewById(R.id._bg__home_ek3);
+
 		ImageView vector_ek1 = (ImageView) findViewById(R.id.vector_ek1);
 		ImageView polygon_3 = (ImageView) findViewById(R.id.polygon_3);
 	
