@@ -76,6 +76,9 @@ public class login_menu_activity extends Activity {
 
 					// Null kontrolü ekleyerek e-posta ve şifre karşılaştırması yapın
 					if (kullanici != null && kullaniciGirdisi.equals(kullanici.getE_posta()) && sifre.equals(kullanici.getSifre())) {
+						UserSession userSession = UserSession.getInstance();
+						userSession.setUserData(userSnapshot.getKey(), kullanici.getAd_soyad(), kullanici.getE_posta());
+
 						Intent intent = new Intent(login_menu_activity.this, button_main_activity.class);
 						startActivity(intent);
 						return;

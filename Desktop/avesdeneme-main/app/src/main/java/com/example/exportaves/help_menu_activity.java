@@ -1,34 +1,23 @@
-
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		help_menu
-	 *	@date 		Tuesday 19th of December 2023 05:26:22 PM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	
-
 package com.example.exportaves;
 
+import android.location.Location;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import androidx.annotation.NonNull;
+import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
-
-
 import android.view.View;
-import android.widget.TextView;
 import android.widget.ImageView;
+import android.widget.TextView;
+import java.util.HashMap;
+import java.util.Map;
+import android.widget.Toast;
 
 public class help_menu_activity extends Activity {
 
-	
 	private View _bg__help_menu;
 	private TextView belediye_hizmet_binas__k_tahya_merkez;
 	private TextView adres_;
@@ -70,64 +59,162 @@ public class help_menu_activity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.help_menu);
 
-		
-		_bg__help_menu = (View) findViewById(R.id._bg__help_menu);
-		belediye_hizmet_binas__k_tahya_merkez = (TextView) findViewById(R.id.belediye_hizmet_binas__k_tahya_merkez);
-		adres_ = (TextView) findViewById(R.id.adres_);
-		_bg__sendbutton_ek1 = (View) findViewById(R.id._bg__sendbutton_ek1);
-		rectangle_3 = (View) findViewById(R.id.rectangle_3);
-		g_nder = (TextView) findViewById(R.id.g_nder);
-		polygon_1 = (ImageView) findViewById(R.id.polygon_1);
-		_bg__option1_ek1 = (View) findViewById(R.id._bg__option1_ek1);
-		ellipse_1 = (View) findViewById(R.id.ellipse_1);
-		ellipse_2 = (View) findViewById(R.id.ellipse_2);
-		yiyecek = (TextView) findViewById(R.id.yiyecek);
-		unsplash_uc0hzduitwy = (ImageView) findViewById(R.id.unsplash_uc0hzduitwy);
-		_bg__option2_ek1 = (View) findViewById(R.id._bg__option2_ek1);
-		ellipse_1_ek1 = (View) findViewById(R.id.ellipse_1_ek1);
-		ellipse_2_ek1 = (View) findViewById(R.id.ellipse_2_ek1);
-		_ad_r = (TextView) findViewById(R.id._ad_r);
-		unsplash_uc0hzduitwy_ek1 = (ImageView) findViewById(R.id.unsplash_uc0hzduitwy_ek1);
-		_bg__option3_ek1 = (View) findViewById(R.id._bg__option3_ek1);
-		ellipse_1_ek2 = (View) findViewById(R.id.ellipse_1_ek2);
-		ellipse_2_ek2 = (View) findViewById(R.id.ellipse_2_ek2);
-		k_yafet = (TextView) findViewById(R.id.k_yafet);
-		unsplash_uc0hzduitwy_ek2 = (ImageView) findViewById(R.id.unsplash_uc0hzduitwy_ek2);
-		_bg__option4_ek1 = (View) findViewById(R.id._bg__option4_ek1);
-		ellipse_1_ek3 = (View) findViewById(R.id.ellipse_1_ek3);
-		ellipse_2_ek3 = (View) findViewById(R.id.ellipse_2_ek3);
-		battaniye = (TextView) findViewById(R.id.battaniye);
-		unsplash_uc0hzduitwy_ek3 = (ImageView) findViewById(R.id.unsplash_uc0hzduitwy_ek3);
-		_bg__option5_ek1 = (View) findViewById(R.id._bg__option5_ek1);
-		ellipse_1_ek4 = (View) findViewById(R.id.ellipse_1_ek4);
-		ellipse_2_ek4 = (View) findViewById(R.id.ellipse_2_ek4);
-		_lk_yard_m_kiti = (TextView) findViewById(R.id._lk_yard_m_kiti);
-		unsplash_uc0hzduitwy_ek4 = (ImageView) findViewById(R.id.unsplash_uc0hzduitwy_ek4);
-		_bg__option6_ek1 = (View) findViewById(R.id._bg__option6_ek1);
-		ellipse_1_ek5 = (View) findViewById(R.id.ellipse_1_ek5);
-		ellipse_2_ek5 = (View) findViewById(R.id.ellipse_2_ek5);
-		hijyen_malzemesi = (TextView) findViewById(R.id.hijyen_malzemesi);
-		unsplash_uc0hzduitwy_ek5 = (ImageView) findViewById(R.id.unsplash_uc0hzduitwy_ek5);
-		_6__r_n_se_ildi = (TextView) findViewById(R.id._6__r_n_se_ildi);
-	
-		
-		//last screen java kodu eklenicek  
-/*
+		_bg__help_menu = findViewById(R.id._bg__help_menu);
+		belediye_hizmet_binas__k_tahya_merkez = findViewById(R.id.belediye_hizmet_binas__k_tahya_merkez);
+		adres_ = findViewById(R.id.adres_);
+		_bg__sendbutton_ek1 = findViewById(R.id._bg__sendbutton_ek1);
+		rectangle_3 = findViewById(R.id.rectangle_3);
+		g_nder = findViewById(R.id.g_nder);
+		polygon_1 = findViewById(R.id.polygon_1);
+		_bg__option1_ek1 = findViewById(R.id._bg__option1_ek1);
+		ellipse_1 = findViewById(R.id.ellipse_1);
+		ellipse_2 = findViewById(R.id.ellipse_2);
+		yiyecek = findViewById(R.id.yiyecek);
+		unsplash_uc0hzduitwy = findViewById(R.id.unsplash_uc0hzduitwy);
+		_bg__option2_ek1 = findViewById(R.id._bg__option2_ek1);
+		ellipse_1_ek1 = findViewById(R.id.ellipse_1_ek1);
+		ellipse_2_ek1 = findViewById(R.id.ellipse_2_ek1);
+		_ad_r = findViewById(R.id._ad_r);
+		unsplash_uc0hzduitwy_ek1 = findViewById(R.id.unsplash_uc0hzduitwy_ek1);
+		_bg__option3_ek1 = findViewById(R.id._bg__option3_ek1);
+		ellipse_1_ek2 = findViewById(R.id.ellipse_1_ek2);
+		ellipse_2_ek2 = findViewById(R.id.ellipse_2_ek2);
+		k_yafet = findViewById(R.id.k_yafet);
+		unsplash_uc0hzduitwy_ek2 = findViewById(R.id.unsplash_uc0hzduitwy_ek2);
+		_bg__option4_ek1 = findViewById(R.id._bg__option4_ek1);
+		ellipse_1_ek3 = findViewById(R.id.ellipse_1_ek3);
+		ellipse_2_ek3 = findViewById(R.id.ellipse_2_ek3);
+		battaniye = findViewById(R.id.battaniye);
+		unsplash_uc0hzduitwy_ek3 = findViewById(R.id.unsplash_uc0hzduitwy_ek3);
+		_bg__option5_ek1 = findViewById(R.id._bg__option5_ek1);
+		ellipse_1_ek4 = findViewById(R.id.ellipse_1_ek4);
+		ellipse_2_ek4 = findViewById(R.id.ellipse_2_ek4);
+		_lk_yard_m_kiti = findViewById(R.id._lk_yard_m_kiti);
+		unsplash_uc0hzduitwy_ek4 = findViewById(R.id.unsplash_uc0hzduitwy_ek4);
+		_bg__option6_ek1 = findViewById(R.id._bg__option6_ek1);
+		ellipse_1_ek5 = findViewById(R.id.ellipse_1_ek5);
+		ellipse_2_ek5 = findViewById(R.id.ellipse_2_ek5);
+		hijyen_malzemesi = findViewById(R.id.hijyen_malzemesi);
+		unsplash_uc0hzduitwy_ek5 = findViewById(R.id.unsplash_uc0hzduitwy_ek5);
+		_6__r_n_se_ildi = findViewById(R.id._6__r_n_se_ildi);
+
 		g_nder.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				// login_menu_activity adlı yeni aktiviteyi başlatmak için Intent
+				if (ellipse_2.getVisibility() == View.VISIBLE) {
+					sendToDatabase("yiyecek");
+				}
+				if (ellipse_2_ek1.getVisibility() == View.VISIBLE) {
+					sendToDatabase("_ad_r");
+				}
+				if (ellipse_2_ek2.getVisibility() == View.VISIBLE) {
+					sendToDatabase("k_yafet");
+				}
+				if (ellipse_2_ek3.getVisibility() == View.VISIBLE) {
+					sendToDatabase("battaniye");
+				}
+				if (ellipse_2_ek4.getVisibility() == View.VISIBLE) {
+					sendToDatabase("_lk_yard_m_kiti");
+				}
+				if (ellipse_2_ek5.getVisibility() == View.VISIBLE) {
+					sendToDatabase("hijyen_malzemesi");
+				}
+
 				Intent intent = new Intent(help_menu_activity.this, last_screen_activity.class);
 				startActivity(intent);
 			}
 		});
-*/
 
+		_bg__option1_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				toggleVisibility(ellipse_2);
+			}
+		});
+
+		_bg__option2_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				toggleVisibility(ellipse_2_ek1);
+			}
+		});
+
+		_bg__option3_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				toggleVisibility(ellipse_2_ek2);
+			}
+		});
+
+		_bg__option4_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				toggleVisibility(ellipse_2_ek3);
+			}
+		});
+
+		_bg__option5_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				toggleVisibility(ellipse_2_ek4);
+			}
+		});
+
+		_bg__option6_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				toggleVisibility(ellipse_2_ek5);
+			}
+		});
+	}
+
+	private void sendToDatabase(String product) {
+		UserSession userSession = UserSession.getInstance();
+		String userId = userSession.getUserId();
+
+		Location userLocation = userSession.getUserLocation();
+
+		double latitude = userLocation.getLatitude();//usersessionda topladığımız verileri çekiyoruz
+		double longitude = ((Location) userLocation).getLongitude();
+
+		DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("istenen_urunler").child(userId).child("konum");
+
+		Map<String, Object> veriMap = new HashMap<>();
+		veriMap.put("latitude", latitude); // Enlem bilgisini ekle userSession dan aldık
+		veriMap.put("longitude", longitude); // Boylam bilgisini ekle  userSession dan aldık
+		veriMap.put(product, true); // Ürün adını anahtar olarak kullan ve değeri true olarak ayarla
+
+		databaseReference.updateChildren(veriMap)
+				.addOnSuccessListener(new OnSuccessListener<Void>() {
+					@Override
+					public void onSuccess(Void aVoid) {
+						showToast("Veri başarıyla gönderildi.");
+					}
+				})
+				.addOnFailureListener(new OnFailureListener() {
+					@Override
+					public void onFailure(@NonNull Exception e) {
+					}
+				});
+	}
+
+
+
+
+
+
+	private void showToast(String message) {
+		Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+	}
+
+	private void toggleVisibility(View view) {
+		if (view.getVisibility() == View.VISIBLE) {
+			view.setVisibility(View.GONE);
+		} else {
+			view.setVisibility(View.VISIBLE);
+		}
 	}
 }
-	
-	

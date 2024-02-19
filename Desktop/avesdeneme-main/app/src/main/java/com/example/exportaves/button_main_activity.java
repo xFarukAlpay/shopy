@@ -102,11 +102,16 @@ public class button_main_activity extends Activity {
 			if (error == null) {
 				// Konum başarıyla gönderildi.
 				// İstediğiniz ek işlemleri burada gerçekleştirebilirsiniz.
+				Location userLocation = new Location("User Location");
+				userLocation.setLatitude(latitude);
+				userLocation.setLongitude(longitude);
+				UserSession.setUserLocation(userLocation);
 			} else {
 				// Konum gönderme sırasında bir hata oluştu.
 			}
 		});
 	}
+
 
 	private void checkLocationPermission() {
 		if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == android.content.pm.PackageManager.PERMISSION_GRANTED) {
