@@ -1,162 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SefraymShop</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="gallery/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SefraymShop</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="gallery/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/all.css">
 </head>
+
 <body>
   <!------------------------------------------------------Header---------------------------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="max-height:70px;z-index:10;">
-        <a class="navbar-brand" href="homepage.html"><span id="bd-title"><img src="gallery/navbrd.png" style="max-height:50px;">SefraymShop</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdp" aria-controls="navdp" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse bg-white" style="width:100%;" id="navdp">
-          <form class="form-inline bg-white  my-2 my-lg-0 mrl">
-            <input class="form-control mr-sm-2 srh-w bg-white" style="width:500px;" type="search" placeholder="Arama..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Arama</button>
-          </form>
-          <button type="button" class="btn btn-danger reg1">Kayıt ol</button>
-          <button type="button" class="btn btn-info reg2"><i class="fas fa-shopping-cart"> Sepet</i>
-            &nbsp;<span class="badge badge-light">0</span>
-          </button>
-        </div>
-      </nav>
-      <nav class="nav2">
-        <ul class="ul2">
-            <li id="one"><a href="electronics.html">Elektronik</a></li>
-            <li id="two"><a href="mobiles.html">Mobil </a></li>
-            <li id="three"><a href="computers.html">Bilgisayarlar Ve Laptoplar</a></li>
-<li id="four"><a href="kiyafetler.html">Mutfak Eşyaları</a></li>
-            <li id="five"><a href="kitaplar.html">Kitaplar</a></li>
-            <li id="six"><a href="kiyafetler.html">Kıyafetler</a></li>
-            <li id="seven"><a href="sporlar.html">Sporlar</a></li>
-            <li id="eight"><a href="#">Geri Ödeme</a></li>
-              </ul>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" style="max-height:70px;z-index:10;">
+    <a class="navbar-brand" href="#"><span id="bd-title"><img src="gallery/navbrd.png"
+          style="max-height:50px;">SefraymShop</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdp" aria-controls="navdp"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse bg-white" style="width:100%;" id="navdp">
+      <form class="form-inline bg-white  my-2 my-lg-0 mrl">
+        <input class="form-control mr-sm-2 srh-w bg-white" style="width:500px;" type="search" placeholder="Arama..."
+          aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Arama</button>
+      </form>
+      <a href="login.php" class="btn btn-danger reg1">Kayıt ol</a>
+      <a href="cart.html" class="btn btn-info reg2"><i class="fas fa-shopping-cart"></i> Sepet &nbsp;<span
+          id="cartCount" class="badge badge-light ms-1">0</span></a>
+
+    </div>
+  </nav>
+  <nav class="nav2">
+    <ul class="ul2">
+      <li id="one"><a href="electronics.html">Elektronik</a></li>
+      <li id="two"><a href="mobiles.html">Mobil </a></li>
+      <li id="three"><a href="computers.html">Bilgisayarlar Ve Laptoplar</a></li>
+      <li id="four"><a href="kiyafetler.html">Mutfak Eşyaları</a></li>
+      <li id="five"><a href="kitaplar.html">Kitaplar</a></li>
+      <li id="six"><a href="kiyafetler.html">Kıyafetler</a></li>
+      <li id="seven"><a href="sporlar">Sporlar</a></li>
+      <li id="eight"><a href="#">Geri Ödeme</a></li>
+    </ul>
+  </nav>
 <!------------------------------------------------------Header---------------------------------------------------->
 
 <!------------------------------------------------------Card2---------------------------------------------------->
-<div class="container-fluid" style="background-color:#F0F8FF; border-bottom:1px solid darkgray; overflow:hidden;">
-  <div class="row mb-3">
-    <div class="col-sm-12 ">
-      <div class="card-group">
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop1.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap1" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Dell Inspiron</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Acer</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop3.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap3" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Apple MAC</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop4.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap4" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Hp Pavilion</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop5.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap5" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Lenovo Ideapad</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Asus VivoBook</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-      </div>
+<div class="card-group">
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop1.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap1"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Dell Inspiron</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
     </div>
   </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Acer</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop3.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap3"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Apple MAC</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop4.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap4"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Hp Pavilion</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop5.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap5"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Lenovo Ideapad</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Asus VivoBook</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 </div>
 
 
 <!------------------------------------------------------Card2---------------------------------------------------->
-<div class="container-fluid" style="background-color:#F0F8FF; border-bottom:1px solid darkgray; overflow:hidden;">
-  <div class="row mb-3">
-    <div class="col-sm-12 ">
-      <div class="card-group">
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop1.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap1" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Dell Inspiron</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Acer</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop3.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap3" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Apple MAC</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop4.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap4" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Hp Pavilion</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop5.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap5" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Lenovo Ideapad</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-        <div class="card col-sm-4 col-lg-2 card2sty">
-          <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2" class="image-fluid">
-          <div class="card-body cd-txt">
-            <h4 class="card-title">Asus VivoBook</h4>
-            <p class="card-text txt-sz">Burlardaki Yazılar Düzenlenicek</p>
-            <a href="#" class="btn btn-warning bb-btn">Satın AL</a>
-          </div>
-        </div>
-      </div>
+<div class="card-group">
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop1.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap1"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Dell Inspiron</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
     </div>
   </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Acer</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop3.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap3"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Apple MAC</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop4.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap4"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Hp Pavilion</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop5.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap5"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Lenovo Ideapad</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+  <div class="card col-sm-4 col-lg-2 card2sty">
+    <img src="gallery/laptop2.jpeg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap2"
+      class="image-fluid">
+    <div class="card-body cd-txt">
+      <h4 class="card-title">Asus VivoBook</h4>
+      <p class="text-muted txt-sz">550 TL(Fiyat güncellemesi at)</p>
+      <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
+      <br><br>
+      <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 </div>
 <!------------------------------------------------------Card2---------------------------------------------------->
 
@@ -206,7 +241,7 @@ Sefraym Shopping, kurulduğu günden beri müşteri memnuniyetini ve güvenini �
     </footer>
 <!------------------------------------------------------Footer---------------------------------------------------->
 
-
+<script src="products.js" charset="utf-8"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
