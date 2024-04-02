@@ -2198,7 +2198,7 @@ spinners:
     - sync-alt
     - yin-yang
   label: Spinners
-sports:
+Parfümler:
   icons:
     - baseball-ball
     - basketball-ball
@@ -2218,7 +2218,7 @@ sports:
     - swimmer
     - table-tennis
     - volleyball-ball
-  label: Sports
+  label: Parfümler
 spring:
   icons:
     - allergies

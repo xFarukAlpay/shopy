@@ -27,11 +27,21 @@
           aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Arama</button>
       </form>
-      <a href="login.php" class="btn btn-danger reg1">Kayıt ol</a>
+      <a href="login.php" class="btn btn-danger reg1">  <?php
+      // Kullanıcı oturumunu başlat
+      session_start();
+      // Kullanıcı adını navbar'da yazdır
+      if (isset($_SESSION['username'])) {
+        echo '<span class="navbar-text"><strong>' . $_SESSION['username'] . '</strong></span>';
+      } else {
+          echo '<a href="login.php" class="btn btn-danger reg1">Kayıt ol</a>';
+      }
+      ?></a>
       <a href="cart.html" class="btn btn-info reg2"><i class="fas fa-shopping-cart"></i> Sepet &nbsp;<span
           id="cartCount" class="badge badge-light ms-1">0</span></a>
 
     </div>
+
   </nav>
   <nav class="nav2">
     <ul class="ul2">
@@ -114,7 +124,7 @@
                           Lip Color Ultra Shine Ete Brulant <br> 850 TL</p>
                         <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
                         <br><br>
-                        <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
+                        <a href="./infos/info7.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
                           role="button">Ürünü Görüntüle</a>
                       </div>
                     </div>
@@ -127,7 +137,7 @@
                         <p class="text-muted">Guerlain Kiss Kiss Shine Bloom Ruj <br> 2.990 TL </p>
                         <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
                         <br><br>
-                        <a href="./infos/info3.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
+                        <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
                           role="button">Ürünü Görüntüle</a>
                       </div>
                     </div>
@@ -140,7 +150,7 @@
                         <p class="text-muted">Afterglow Lip Balm Clean Cut <br> 1.420 TL</p>
                         <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
                         <br><br>
-                        <a href="./infos/info4.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
+                        <a href="./infos/info3.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
                           role="button">Ürünü Görüntüle</a>
                       </div>
                     </div>
@@ -173,7 +183,7 @@
                         <p class="text-muted">Lash Sensational Sky High Maskara <br> 495 TL</p>
                         <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
                         <br><br>
-                        <a href="./infos/info6.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
+                        <a href="./infos/info5.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark"
                           role="button">Ürünü Görüntüle</a>
                       </div>
                     </div>
@@ -236,8 +246,8 @@
             <img src="gallery/laptop1.jpg" style="margin:5px; max-height:200px; max-width:200px;" alt="lap1"
               class="image-fluid">
             <div class="card-body cd-txt">
-              <h4 class="card-title">Hermès <br> Rose Pommette Allık</h4>
-              <p class="text-muted txt-sz">1.550 TL</p>
+              <h4 class="card-title">Hermès <br>  Rose Pommette Allık</h4>
+              <p class="text-muted txt-sz">1.550 TL<br></p>
               <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
               <br><br>
               <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
@@ -248,7 +258,7 @@
               class="image-fluid">
             <div class="card-body cd-txt">
               <h4 class="card-title"> Clinique High Impact Zero Gravity Mascara</h4>
-              <p class="text-muted txt-sz">175 TL</p>
+              <p class="text-muted txt-sz">175 TL<br></p>
               <button class="w-100 btn btn-dark btn-custom addToCart" type="submit">Sepete Ekle</button>
               <br><br>
               <a href="./infos/info2.html" class="w-100 btn btn-sm btn-secondary bg-white text-dark" role="button">Ürünü Görüntüle</a>
@@ -306,9 +316,8 @@
 
   <!------------------------------------------------------Card2---------------------------------------------------->
 
-  <!------------------------------------------------------Mobiles---------------------------------------------------->
+  <!------------------------------------------------------Maskaralar ---------------------------------------------------->
   <div class="container-fluid" style="background-color:#F0F8FF; border-bottom:1px solid darkgray; overflow:hidden;">
-    <h4 class="cd-h4 mt-2 mb-2">Son Model Telefonlar</h4>
     <div class="row">
       <img src="gallery/mb1.png" class=" mt-2 mb-2 col-6 col-sm-4 col-lg-3 image-fluid"
         onclick="window.location.assign('https://www.google.com')">
@@ -320,7 +329,7 @@
         onclick="window.location.assign('https://www.google.com')">
     </div>
   </div>
-  <!------------------------------------------------------Mobiles---------------------------------------------------->
+  <!------------------------------------------------------Maskaralar ---------------------------------------------------->
 
   <!------------------------------------------------------Footer---------------------------------------------------->
   <footer class="footdes">
@@ -333,32 +342,32 @@
             alışveriş deneyimi sağlamaktır.
 
             Sefraym Shopping, kurulduğu günden beri müşteri memnuniyetini ve güvenini ön planda tutarak hizmet
-            vermektedir. Geniş ürün yelpazemizde herkesin ihtiyacına uygun ürünleri bulabilirsiniz. Giyim, elektronik,
-            ev dekorasyonu, kitaplar ve daha fazlası gibi çeşitli kategorilerde binlerce ürün sunuyoruz. </p>
+            vermektedir. Geniş ürün yelpazemizde herkesin ihtiyacına uygun ürünleri bulabilirsiniz. Giyim, Rujlar ,
+            ev dekorasyonu, Nemlendiriciler ve daha fazlası gibi çeşitli kategorilerde binlerce ürün sunuyoruz. </p>
         </div>
         <div class="col-sm-4 foocol">
           <h4 class="text-white fh4">Categories</h4>
           <i class="fas fa-tv text-white"> <a href="ruj.html"
-              style="text-decoration: none; list-style:none; display:inline-block;">Electronics</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Rujlar</a></i> <br />
           <i class="fas fa-mobile text-white"> <a href="maskaralar.html"
-              style="text-decoration: none; list-style:none; display:inline-block;">Mobil</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Maskaralar </a></i> <br />
           <i class="fas fa-laptop text-white"> <a href="laptops.html"
-              style="text-decoration: none; list-style:none; display:inline-block;">Bilgisayarlar</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Allıklar</a></i> <br />
           <i class="fas fa-utensils text-white"> <a href="#"
-              style="text-decoration: none; list-style:none; display:inline-block;">Mutfak Eşyaları</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Farlar </a></i> <br />
           <i class="fas fa-book text-white"> <a href="#"
-              style="text-decoration: none; list-style:none; display:inline-block;">Kitaplar</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Nemlendiriciler</a></i> <br />
           <i class="fas fa-tshirt text-white"> <a href="#"
-              style="text-decoration: none; list-style:none; display:inline-block;">Kıyafetler</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Aydınlatıcılar </a></i> <br />
           <i class="fas fa-running text-white"> <a href="#"
-              style="text-decoration: none; list-style:none; display:inline-block;">Sports</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Parfümler</a></i> <br />
           <i class="fas fa-rupee-sign text-white"> <a href="#"
-              style="text-decoration: none; list-style:none; display:inline-block;">Geri Ödeme</a></i> <br />
+              style="text-decoration: none; list-style:none; display:inline-block;">Makyaj Bazları</a></i> <br />
         </div>
 
 
         <div class="col-sm-4 foocol">
-          <h4 class="text-white fh4">Contact Us</h4>
+          <h4 class="text-white fh4">İletişime geç</h4>
           <span style="color:antiquewhite; text-transform:uppercase;">Address:</span><span class="text-white">
             SefraymShop , Kütahya Dumlupınar Üniversitesi</span><br />
           <i class="fas fa-envelope text-white"></i> <span
