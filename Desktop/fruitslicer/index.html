@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meyve Kesme Oyunu</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="instructions">
+               Meyve Kesimi
+            </div>
+        <div id="fruitcontainer">
+            <div id="score">
+                <div class="scoreDisplay"><img src="images/scr.png" alt="">
+                    <span id="scoreValue">0</span></div>
+            </div>
+            <div id="trialsleft"></div>
+            <div id="front">
+                UltimAtom Meyve Kesimi İçin Hazır mısın?? <br/>
+                <img src="images/splash.png" alt="Fruit logo">
+            </div>
+            <img id="fruit1" class="fruit">
+        </div>
+        <div id="startReset">Oyuna Başla</div>
+        <!--for game over block-->
+        <div id="gameOver"></div>
+        </div>
+        <!--for audio files-->
+        <audio id="slicesound">
+            <source src="https://github.com/Saumya-07/Fruit-Slicer/blob/master/audio/slicefruit.mp3"></source>
+            <source src="https://github.com/Saumya-07/Fruit-Slicer/blob/master/audio/slicefruit.ogg"></source>
+            <source src="https://github.com/Saumya-07/Fruit-Slicer/blob/master/audio/slicefruit.wav"></source>
+        </audio>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="jscript.js"></script>
+    </body>
+</html>
